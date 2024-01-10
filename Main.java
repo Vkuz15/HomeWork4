@@ -27,5 +27,21 @@ public class Main {
         } else {
             System.out.println("Если скорость " + speed + ", то можно ездить спокойно");
         }
+
+        // Задача 4
+
+        int ageHuman = 27;
+        if (ageHuman >= 2 && ageHuman <= 6) {
+            System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить в детский сад");
+        }
+        if (ageHuman >= 7 && ageHuman <= 17) {
+            System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить в школу");
+        }
+        if (ageHuman >= 18 && ageHuman <= 24) {
+            System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить в университет");
+        }
+        if (ageHuman >= 25) {
+            System.out.println("Если возраст человека равен " + ageHuman + ", то ему пора ходить на работу");
+        }
     }
 }
