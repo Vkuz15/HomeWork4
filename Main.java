@@ -56,5 +56,19 @@ public class Main {
         if (ageChild > 14) {
             System.out.println("Если возраст ребенка равен " + ageChild + ", то ему можно кататься на аттракционе без сопровождения взрослого");
         }
+
+        // Задача 6
+
+        int trailer = 10;
+        int trailerCapacity = 102;
+        if (trailer > 1 && trailer <= 60) {
+            System.out.println("В вагоне есть сидячие места");
+        }
+        if (trailer >= 61 && trailer <= 102) {
+            System.out.println("В вагоне нет сидячих мест, но есть стоячее");
+        }
+        if (trailer > 102) {
+            System.out.println("В вагоне нет свободных мест");
+        }
     }
 }
