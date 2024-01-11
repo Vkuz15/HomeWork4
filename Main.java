@@ -70,5 +70,18 @@ public class Main {
         if (trailer > 102) {
             System.out.println("В вагоне нет свободных мест");
         }
+
+        // Задача 7
+
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (one > two && one > three) {
+            System.out.println("Самое большое число - " + one);
+        } else if (two > one && two > three) {
+            System.out.println("Самое большое число - " + two);
+        } else {
+            System.out.println("Самое большое число - " + three);
+        }
     }
 }
